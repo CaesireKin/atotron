@@ -1,0 +1,23 @@
+{
+  "name": "electron-seed",
+  "version": "1.0.0",
+  "description": "An electron project seed with a updater",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caesirekin/electron-seed.git"
+  },
+  "author": "Zhuo zhuo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caesirekin/electron-seed/issues"
+  },
+  "homepage": "https://github.com/caesirekin/electron-seed#readme",
+  "devDependencies": {
+    "electron": "^7.0.0"
+  }
+}
