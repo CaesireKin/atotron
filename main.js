@@ -10,11 +10,13 @@ function createWindow() {
         }
     });
 
-    hWindow.loadFile('./app/index.html');
-
     hWindow.on('closed', () => {
         hWindow = null;
     });
+
+    // TODO: 加入更新检测
+
+    hWindow.loadFile('./app/index.html');
 }
 
 app.on('ready', createWindow);

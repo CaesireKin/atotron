@@ -20,5 +20,8 @@
   "homepage": "https://github.com/caesirekin/electron-seed#readme",
   "devDependencies": {
     "electron": "^7.0.0"
+  },
+  "dependencies": {
+    "compressing": "^1.4.0"
   }
 }
